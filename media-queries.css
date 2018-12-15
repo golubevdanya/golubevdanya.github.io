@@ -1,0 +1,61 @@
+﻿/*Размер экрана меньше 980px*/
+@media screen and (max-width: 980px) {
+	.wrapper 
+{
+		width: 100%;
+		
+padding: 0;
+	}
+
+	
+	ul.nav li a {
+		
+padding: 0 20px;
+	}
+
+	
+	.headerContent,.content {
+		
+border-radius: 0;
+		
+-webkit-border-radius: 0;
+		
+-moz-border-radius: 0;
+	}
+}
+
+
+
+{
+	html {
+		
+-webkit-text-size-adjust: none; /*Отключение регулировки размера шрифта*/
+	}
+
+	
+}
+
+
+
+
+
+/*Эластичные изображения*/
+img {
+	
+max-width: 100%;
+	
+height: auto;
+	
+width: auto\9;/*For ie8*/
+}
+
+
+
+/*Эластичные встраиваемые видео*/
+
+.video embed,
+.video object,
+.video iframe {
+	width: 100%;
+	height: auto;
+}
